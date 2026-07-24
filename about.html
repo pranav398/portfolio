@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About — Pranav</title>
+    <meta name="description" content="Learn about [Your Name] — IIT Bombay 1st-year CSE student, robotics enthusiast, drone builder, and music lover." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/about.css" />
+
+    <script src="js/theme.js"></script>
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-name">YN</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link"><span class="nav-icon">🏠</span> Home</a></li>
+                <li><a href="about.html" class="nav-link"><span class="nav-icon">👤</span> About</a></li>
+                <li><a href="projects.html" class="nav-link"><span class="nav-icon">🚀</span> Projects</a></li>
+                <li><a href="achievements.html" class="nav-link"><span class="nav-icon">🏆</span> Achievements</a></li>
+                <li><a href="contact.html" class="nav-link"><span class="nav-icon">✉️</span> Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="toggle-thumb">🌙</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav-mobile-overlay" id="nav-overlay"></div>
+    <nav class="nav-mobile" id="nav-mobile">
+        <a href="index.html" class="nav-link"><span class="nav-icon">🏠</span> Home</a>
+        <a href="about.html" class="nav-link"><span class="nav-icon">👤</span> About</a>
+        <a href="projects.html" class="nav-link"><span class="nav-icon">🚀</span> Projects</a>
+        <a href="achievements.html" class="nav-link"><span class="nav-icon">🏆</span> Achievements</a>
+        <a href="contact.html" class="nav-link"><span class="nav-icon">✉️</span> Contact</a>
+    </nav>
+
+    <main>
+        <section class="page-hero" aria-labelledby="about-page-title">
+            <div id="webgl-hero-container" aria-hidden="true"></div>
+            <div class="page-hero-bg" aria-hidden="true"></div>
+            <div class="container">
+                <div class="page-hero-content">
+                    <span class="page-tag">👤 About Me</span>
+                    <h1 class="page-title" id="about-page-title">The Person Behind the Code</h1>
+                    <p class="page-subtitle">A curious 1st-year from IIT Bombay, navigating the beautiful intersection of engineering, robotics, drones, sports  and music.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="profile-section section" aria-label="Profile">
+            <div class="container">
+                <div class="profile-grid">
+                    <div class="profile-card reveal-left">
+                        <div class="profile-avatar">
+                            <img src="assets/avatar.png" alt="Pranav Bagrecha" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'display:flex;align-items:center;justify-content:center;width:100%;height:100%;font-size:4rem;\'>👤</div>'" />
+                        </div>
+                        <div class="profile-name">Pranav Bagrecha</div>
+                        <div class="profile-role mono">CSE@IITBombay · B.Tech '30</div>
+
+                        <div class="profile-tags">
+                            <span class="badge badge-cyan">🤖 Robotics</span>
+                            <span class="badge badge-green">🚁 Drones</span>
+                            <span class="badge badge-pink">🎵 Music</span>
+                            <span class="badge badge-violet">💻 CSE</span>
+                            <span class="badge badge-cyan">🏐 Sports</span>
+                        </div>
+
+                        <div class="profile-info-row">
+                            <span class="icon">📍</span>
+                            <div>
+                                <div class="label">Location</div>
+                                <div class="value">IIT Bombay, Mumbai</div>
+                            </div>
+                        </div>
+                        <div class="profile-info-row">
+                            <span class="icon">🎓</span>
+                            <div>
+                                <div class="label">Degree</div>
+                                <div class="value">B.Tech - Computer Science and Engineering</div>
+                            </div>
+                        </div>
+                        <div class="profile-info-row">
+                            <span class="icon">📅</span>
+                            <div>
+                                <div class="label">Year</div>
+                                <div class="value">1st Year (2026–2030)</div>
+                            </div>
+                        </div>
+                        <div class="profile-info-row">
+                            <span class="icon">📧</span>
+                            <div>
+                                <div class="label">Email</div>
+                                <div class="value">pranav.b@iitb.ac.in</div>
+                                <div class="value">pranavb@cse.iitb.ac.in</div>
+                                <div class="value">pranavb030908@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="profile-info-row">
+                            <span class="icon">🌐</span>
+                            <div>
+                                <div class="label">Open to</div>
+                                <div class="value">Collabs · Research · Music · Fun</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-text-col reveal-right">
+                        <h2>Hey there, I'm <span class="gradient-text">Pranav Bagrecha</span> 👋</h2>
+
+                        <p>I'm a <span class="highlight-text">first-year Computer Science student</span> at the Indian Institute of Technology Bombay — one of the most exciting places in the world to be an engineer. Every day here teaches me something new, whether it's from a lecture hall, a late-night hackathon, or a spirited debate in the hostel corridor.</p>
+                        <p>My interests lie at the intersection of <span class="highlight-text">robotics, autonomous systems, and music technology</span>. I love the idea of building machines that can sense, think, and act — whether that's a robot navigating a maze or a drone performing an aerial dance to a beat.</p>
+                        <blockquote class="about-quote">"The best way to predict the future is to invent it." — Alan Kay</blockquote>
+
+                        <p>When I'm not coding or studying, you'll find me strumming my guitar, experimenting with drone flight mechanics, reading about emerging tech, or binge-watching robot competitions on YouTube.</p>
+
+                        <div style="margin-top:2rem; display:flex; gap:1rem; flex-wrap:wrap;">
+                            <a href="projects.html" class="btn btn-primary">🚀 See My Work</a>
+                            <a href="contact.html" class="btn btn-outline">✉️ Let's Connect</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="skills-section section" style="background:var(--bg-secondary);" aria-label="Skills">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Technical Skills</span>
+                    <h2 class="section-title">What I Know</h2>
+                    <p class="section-subtitle">Still learning every day — these represent my current comfort zones.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category reveal delay-1">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">💻</div>
+                            <div class="skill-cat-title">Programming Languages</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-pct">85%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">C / C++</span>
+                                <span class="skill-pct">70%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-pct">60%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Bash / Shell</span>
+                                <span class="skill-pct">55%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:55%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category reveal delay-2">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">🛠️</div>
+                            <div class="skill-cat-title">Tools & Technologies</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-pct">75%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Linux / CLI</span>
+                                <span class="skill-pct">70%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Arduino / Raspberry Pi</span>
+                                <span class="skill-pct">65%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">VS Code / JetBrains</span>
+                                <span class="skill-pct">80%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category reveal delay-3">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">📐</div>
+                            <div class="skill-cat-title">CS Fundamentals</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Data Structures</span>
+                                <span class="skill-pct">70%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Algorithms</span>
+                                <span class="skill-pct">65%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">OOP Concepts</span>
+                                <span class="skill-pct">75%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Discrete Mathematics</span>
+                                <span class="skill-pct">60%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:60%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category reveal delay-4">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">🤖</div>
+                            <div class="skill-cat-title">Domain Interests</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Robotics (ROS basics)</span>
+                                <span class="skill-pct">50%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Drone Flight Control</span>
+                                <span class="skill-pct">45%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:45%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Machine Learning (basics)</span>
+                                <span class="skill-pct">40%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:40%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-row">
+                                <span class="skill-name">Signal Processing</span>
+                                <span class="skill-pct">35%</span>
+                            </div>
+                            <div class="skill-bar-wrap">
+                                <div class="skill-bar" style="--target-width:35%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top:3rem; text-align:center;" class="reveal">
+                    <div class="section-tag" style="margin-bottom:1.25rem;">Tools I Use</div>
+                    <div class="tech-stack" style="justify-content:center;">
+                        <span class="badge badge-cyan">Python</span>
+                        <span class="badge badge-violet">C++</span>
+                        <span class="badge badge-amber">JavaScript</span>
+                        <span class="badge badge-green">Git</span>
+                        <span class="badge badge-cyan">Linux</span>
+                        <span class="badge badge-pink">Arduino</span>
+                        <span class="badge badge-violet">ROS</span>
+                        <span class="badge badge-green">Raspberry Pi</span>
+                        <span class="badge badge-amber">MATLAB</span>
+                        <span class="badge badge-cyan">VS Code</span>
+                        <span class="badge badge-violet">NumPy</span>
+                        <span class="badge badge-pink">OpenCV</span>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="interests-section section" aria-label="Interests">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Beyond Code</span>
+                    <h2 class="section-title">My Four Worlds</h2>
+                </div>
+
+                <div class="interests-cards">
+                    <div class="interest-big-card ibc-1 reveal delay-1">
+                        <span class="interest-big-icon">🎵</span>
+                        <h3 class="interest-big-title">Music</h3>
+                        <p class="interest-big-desc">I play piano and love experimenting with music production. There's something magical about how mathematics underlies every melody. I'm also exploring music technology — DSP, audio synthesis, and AI music generation.</p>
+                        <div style="margin-top:1rem;">
+                            <span class="badge badge-pink">Piano</span>
+                            <span class="badge badge-violet">Production</span>
+                            <span class="badge badge-cyan">Mashup</span>
+                        </div>
+                    </div>
+
+                    <div class="interest-big-card ibc-2 reveal delay-2">
+                        <span class="interest-big-icon">🚁</span>
+                        <h3 class="interest-big-title">Drones & UAVs</h3>
+                        <p class="interest-big-desc">From understanding aerodynamics to programming flight controllers, I'm fascinated by unmanned aerial vehicles. I'm currently exploring multirotor design, PID control systems, and autonomous navigation algorithms.</p>
+                        <div style="margin-top:1rem;">
+                            <span class="badge badge-green">UAV Design</span>
+                            <span class="badge badge-cyan">PID Control</span>
+                            <span class="badge badge-amber">Autonomy</span>
+                        </div>
+                    </div>
+
+                    <div class="interest-big-card ibc-3 reveal delay-3">
+                        <span class="interest-big-icon">🤖</span>
+                        <h3 class="interest-big-title">Robotics</h3>
+                        <p class="interest-big-desc">Building machines that interact with the physical world is endlessly exciting. I'm learning about robotic arms, sensor fusion, SLAM, and real-world AI deployment. Eventually, I'd love to work on humanoid robots.</p>
+                        <div style="margin-top:1rem;">
+                            <span class="badge badge-violet">ROS</span>
+                            <span class="badge badge-cyan">SLAM</span>
+                            <span class="badge badge-pink">Manipulation</span>
+                        </div>
+                    </div>
+
+                    <div class="interest-big-card ibc-2 reveal delay-2">
+                        <span class="interest-big-icon">🏐</span>
+                        <h3 class="interest-big-title">Sports</h3>
+                        <p class="interest-big-desc">Whether it's diving for a volleyball, driving to the basket, or rallying at the table tennis table, I love sports that demand speed, coordination, and teamwork. They keep me disciplined, active, and always striving to improve.</p>
+                        <div style="margin-top:1rem;">
+                            <span class="badge badge-green">Volleyball</span>
+                            <span class="badge badge-cyan">Basketball</span>
+                            <span class="badge badge-amber">Table Tennis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="journey-section section" style="background:var(--bg-secondary);" aria-label="Journey">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">My Journey</span>
+                    <h2 class="section-title">The Road So Far</h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-spacer"></div>
+                        <div class="tl-card">
+                            <div class="tl-year">2013–2024</div>
+                            <div class="tl-title">Schooling & Early Curiosity</div>
+                            <div class="tl-desc">Grew up fascinated by science, built my first programs in Ichalkaranji, Kolhapur. Participated in science olympiads and developed a love for problem-solving.</div>
+                        </div>
+                    </div>
+
+                    <div class="tl-item reveal delay-1">
+                        <div class="tl-card">
+                            <div class="tl-year">2024–2026</div>
+                            <div class="tl-title">JEE Preparation</div>
+                            <div class="tl-desc">Two intense years of preparing for JEE Advanced. Built discipline, problem-solving skills, and a deep appreciation for Mathematics and Physics. (Had personal hate with JEE Chemistry)</div>
+                        </div>
+                        <div class="tl-dot"></div>
+                        <div class="tl-spacer"></div>
+                    </div>
+
+                    <div class="tl-item reveal delay-2">
+                        <div class="tl-dot"></div>
+                        <div class="tl-spacer"></div>
+                        <div class="tl-card">
+                            <div class="tl-year">Apr 2026</div>
+                            <div class="tl-title">OCSC Physics</div>
+                            <div class="tl-desc">Attending OSCS Physics 2026, an orientation camp for selecting the Indian National Team to represent India in IPhO (International Physics Olympiad), 2026.</div>
+                        </div>
+                    </div>
+
+                    <div class="tl-item reveal delay-3">
+                        <div class="tl-dot"></div>
+                        <div class="tl-spacer"></div>
+                        <div class="tl-card">
+                            <div class="tl-year">1 June 2026</div>
+                            <div class="tl-title">JEE Advanced Result 🎉</div>
+                            <div class="tl-desc">Secured All India Rank #112 in JEE Advanced 2024. One of the proudest moments of my life — the culmination of years of hard work.</div>
+                        </div>
+                    </div>
+
+                    <div class="tl-item reveal delay-4">
+                        <div class="tl-card">
+                            <div class="tl-year">20 Jul 2024</div>
+                            <div class="tl-title">IIT Bombay — Day 1 🏛️</div>
+                            <div class="tl-desc">Stepped onto the beautiful IIT Bombay campus for the first time. Joined the Computer Science department and started an incredible journey.</div>
+                        </div>
+                        <div class="tl-dot"></div>
+                        <div class="tl-spacer"></div>
+                    </div>
+
+                    <div class="tl-item reveal delay-5">
+                        <div class="tl-dot"></div>
+                        <div class="tl-spacer"></div>
+                        <div class="tl-card">
+                            <div class="tl-year">2026–Present</div>
+                            <div class="tl-title">Exploring & Building</div>
+                            <div class="tl-desc">Joining clubs, attending workshops, building first projects, making lifelong friends, and discovering what kind of engineer I want to become.</div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="tl-item reveal delay-5">
+                        <div class="tl-card">
+                            <div class="tl-year">Future</div>
+                            <div class="tl-title">What's Next? 🚀</div>
+                            <div class="tl-desc">[Add your goals here — research, startup, internship,
+                                specialization...] The journey is just beginning!</div>
+                        </div>
+                        <div class="tl-dot"
+                            style="border-color:var(--accent-violet); box-shadow:0 0 14px var(--glow-violet);"></div>
+                        <div class="tl-spacer"></div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="fun-facts section" aria-label="Fun facts">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Fun Facts</span>
+                    <h2 class="section-title">By the Numbers</h2>
+                </div>
+
+                <div class="facts-grid">
+                    <div class="fact-card reveal delay-1">
+                        <div class="fact-num" data-counter data-target="3" data-suffix="+">3+</div>
+                        <div class="fact-label">Programming languages learned</div>
+                    </div>
+                    <div class="fact-card reveal delay-2">
+                        <div class="fact-num" data-counter data-target="100" data-suffix="+">100+</div>
+                        <div class="fact-label">Cups of chai ☕ consumed</div>
+                    </div>
+                    <div class="fact-card reveal delay-3">
+                        <div class="fact-num" data-counter data-target="5" data-suffix="+">5+</div>
+                        <div class="fact-label">Projects built (and broken)</div>
+                    </div>
+                    <div class="fact-card reveal delay-4">
+                        <div class="fact-num" data-counter data-target="1" data-suffix="">1</div>
+                        <div class="fact-label">Dream: build something that matters</div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-logo">&lt;PB /&gt;</div>
+
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="achievements.html">Achievements</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+
+                <div class="footer-socials">
+                    <a href="https://github.com/pranav398" target="_blank" rel="noopener" aria-label="GitHub"
+                        title="GitHub">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://linkedin.com/in/pranav-bagrecha" target="_blank" rel="noopener"
+                        aria-label="LinkedIn" title="LinkedIn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                    </a>
+
+                    <a href="mailto:pranav.b@iitb.ac.in" aria-label="Email" title="Email">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                        </svg>
+                    </a>
+                    <a href="https://x.com/PranavB398" target="_blank" rel="noopener" aria-label="Twitter/X"
+                        title="Twitter/X">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>Made with <span class="heart">♥</span> &amp; ☕ by <span class="accent">Pranav Bagrecha</span> &mdash; IIT Bombay &copy; 2026</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/three-scene.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/scroll-reveal.js"></script>
+    <script src="js/cursor.js"></script>
+
+</body>
+</html>
