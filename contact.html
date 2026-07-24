@@ -165,7 +165,7 @@
                     </div>
 
                     <div class="reveal-right">
-                        <form class="contact-form-wrap" id="contact-form" novalidate>
+                        <form class="contact-form-wrap" id="contact-form" method="post">
                             <div class="form-inner">
                                 <div class="form-title">Send a Message 💬</div>
                                 <div class="form-sub">I usually respond within 24 hours. No spam, I promise!</div>
@@ -173,18 +173,18 @@
                                 <div class="form-row">
                                     <div class="form-group">
                                         <label class="form-label" for="contact-name">Name <span class="req">*</span></label>
-                                        <input type="text" id="contact-name" class="form-input" placeholder="Your full name" required autocomplete="name" />
+                                        <input type="text" id="contact-name" class="form-input" placeholder="Your full name" required autocomplete="name" name="name" />
                                     </div>
 
                                     <div class="form-group">
                                         <label class="form-label" for="contact-email">Email <span class="req">*</span></label>
-                                        <input type="email" id="contact-email" class="form-input" placeholder="your@email.com" required autocomplete="email" />
+                                        <input type="email" id="contact-email" class="form-input" placeholder="your@email.com" required autocomplete="email" name="email" />
                                     </div>
                                 </div>
 
                                 <div class="form-group">
                                     <label class="form-label" for="contact-org">Organization / College</label>
-                                    <input type="text" id="contact-org" class="form-input" placeholder="Where are you from?" autocomplete="organization" />
+                                    <input type="text" id="contact-org" class="form-input" placeholder="Where are you from?" autocomplete="organization" name="organization" />
                                 </div>
 
                                 <div class="form-group">
@@ -196,13 +196,14 @@
                                         <button type="button" class="subject-chip" id="chip-robotics">🤖Robotics</button>
                                         <button type="button" class="subject-chip" id="chip-drone">🚁 Drones</button>
                                         <button type="button" class="subject-chip" id="chip-music">🎵 Music</button>
-                                        <button type="button" class="subject-chip" id="chip-other">💬 Just SayHi</button>
+                                        <button type="button" class="subject-chip" id="chip-other">💬 Just Say Hi</button>
                                     </div>
+                                    <input type="hidden" id="contact-subject" name="subject" value="General" />
                                 </div>
 
                                 <div class="form-group">
                                     <label class="form-label" for="contact-msg">Message <span class="req">*</span></label>
-                                    <textarea id="contact-msg" class="form-textarea" placeholder="Tell me about yourself, your project idea, or whatever's on your mind..." required></textarea>
+                                    <textarea id="contact-msg" class="form-textarea" placeholder="Tell me about yourself, your project idea, or whatever's on your mind..." required name="message"></textarea>
                                 </div>
 
                                 <button type="submit" class="form-submit" id="form-submit-btn">
@@ -215,7 +216,7 @@
                                 <div class="success-icon">🎉</div>
                                 <div class="success-title">Message Sent!</div>
                                 <p class="success-sub">Thanks for reaching out! I'll get back to you within 24 hours.</p>
-                                <a href="index.html" class="btn btn-outline" style="margin-top:1.5rem;">← Back toHome</a>
+                                <a href="index.html" class="btn btn-outline" style="margin-top:1.5rem;">← Back to Home</a>
                             </div>
                         </form>
                     </div>
@@ -297,11 +298,13 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="js/three-scene.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/scroll-reveal.js"></script>
     <script src="js/cursor.js"></script>
+    <script src="js/contact.js"></script>
 
 </body>
 </html>
