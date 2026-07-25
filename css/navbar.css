@@ -230,11 +230,14 @@
     backdrop-filter: blur(4px);
     z-index: 998;
     opacity: 0;
+    pointer-events: none;
     transition: opacity 0.3s ease;
 }
 
 .nav-mobile-overlay.open {
+    display: flex;
     opacity: 1;
+    pointer-events: auto;
 }
 
 .nav-mobile {
@@ -288,8 +291,7 @@
         display: flex;
     }
 
-    .nav-mobile,
-    .nav-mobile-overlay {
+    .nav-mobile {
         display: flex;
     }
 }
