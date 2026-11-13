@@ -1,57 +1,41 @@
+
 # Pranav's Portfolio
 
-> Personal portfolio website of Pranav, showcasing projects, technical interests, skills, and work.
+Personal portfolio website showcasing my projects, technical skills, academic background, and interests.
 
 ## 🌐 Live Website
 
-The portfolio is currently live at:
+- [IITB CSE Homepages](https://www.cse.iitb.ac.in/~pranavb)
+- [IIT Bombay Homepages](https://homepages.iitb.ac.in/~pranav.b)
 
-**https://homepages.iitb.ac.in/~pranav.b**
+Hosted on IIT Bombay's Homepages service.
 
-Hosted through **IIT Bombay Homepages**.
+## ✨ Overview
 
-## ✨ About
+This repository contains the source code for my personal portfolio website. It serves as a central place to explore my work, technical interests, projects, and background.
 
-This repository contains the source code for my personal portfolio website.
+### Features
 
-The website is designed to provide an overview of my:
-
-- 👨‍💻 Projects
-- 🛠️ Technical skills
-- 🎓 Academic background
-- 💡 Interests
-- 🚀 Work and experiments
-- 📫 Contact information
-
-It acts as a central place to learn more about me and the things I build.
-
-## 🚀 Features
-
-- Responsive portfolio website
+- Responsive and mobile-friendly design
 - Personal introduction
 - Project showcase
-- Technical skills
-- Academic information
-- Interests and hobbies
-- Contact section
+- Technical skills and interests
+- Academic background
+- Contact information
 - Lightweight frontend
-- Mobile-friendly design
 
 ## 🛠️ Tech Stack
 
-The portfolio is built using standard web technologies:
+- **HTML5** – Structure
+- **CSS3** – Styling and responsive design
+- **JavaScript** – Interactive functionality
 
-- **HTML5** — Website structure
-- **CSS3** — Styling and responsive design
-- **JavaScript** — Interactive functionality
-
-The project is intentionally lightweight and does not require a large frontend framework.
+The website uses standard web technologies without relying on heavy frontend frameworks.
 
 ## 📂 Project Structure
 
 ```text
 portfolio/
-│
 ├── index.html
 ├── css/
 ├── js/
@@ -59,88 +43,51 @@ portfolio/
 └── ...
 ```
 
-> The project structure may change as the portfolio continues to be developed.
+*The structure may evolve as the project develops.*
 
 ## 💻 Run Locally
 
-### 1. Clone the repository
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/pranav398/portfolio.git
 ```
 
-### 2. Enter the project directory
+**2. Navigate to the project directory**
 
 ```bash
 cd portfolio
 ```
 
-### 3. Open the website
+**3. Open the website**
 
-You can open `index.html` directly in a browser.
+Open `index.html` directly in your browser, or use a local development server such as VS Code Live Server.
 
-Alternatively, use a local development server such as **VS Code Live Server**.
+## 🚀 Deployment
 
-## 🌍 Deployment
+The portfolio is hosted through IIT Bombay's Homepages service.
 
-The portfolio is currently deployed through IIT Bombay's Homepages service.
-
-### Live URL
-
-```text
-https://homepages.iitb.ac.in/~pranav.b
-```
-
-The GitHub repository contains the source code, while the IIT Bombay Homepages URL serves the live website.
-
-## 🔄 Updating the Website
-
-To update the portfolio:
-
-1. Make the required changes to the source files.
-2. Test the website locally.
-3. Commit the changes.
-
-```bash
-git add .
-git commit -m "Update portfolio"
-git push
-```
-
-4. Upload the updated website files to the IIT Bombay Homepages hosting environment.
-
-## 🎯 Purpose
-
-This portfolio is a personal space to showcase the things I build, the technologies I work with, and the areas I am interested in exploring.
-
-It will continue to evolve as I work on new projects, learn new technologies, and gain new experiences.
+The GitHub repository contains the source code, while the URLs listed above serve the live website.
 
 ## 📌 Project Status
 
-**Active**
-
-The portfolio is continuously updated with new projects, improvements, and content.
+**Active** – The portfolio is updated periodically with new projects, content, and improvements.
 
 ## 👨‍💻 Author
 
-**Pranav**
-
-Computer Science & Engineering  
+**Pranav Bagrecha**  
+Computer Science and Engineering  
 IIT Bombay
 
-### Links
-
-- **Portfolio:** https://homepages.iitb.ac.in/~pranav.b
-- **GitHub:** https://github.com/pranav398
+- **Portfolio:** [pranavb](https://www.cse.iitb.ac.in/~pranavb)
+- **GitHub:** [pranav398](https://github.com/pranav398)
 
 ## 📜 License
 
-This portfolio contains personal content, photographs, project information, and other original material.
-
-Please do not reproduce or redistribute personal content without permission.
+This repository contains personal content, photographs, project information, and original material. Please do not reproduce or redistribute such content without permission.
 
 ---
 
 <p align="center">
-  Designed & built by Pranav
+  Designed and built by Pranav.
 </p>
